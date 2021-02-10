@@ -27,17 +27,12 @@ async def on_message(message):
     await message.channel.send('Whats up')
   
   if message.content.startswith('!Python'):
-    await message.channel.send('I learned python from https://www.youtube.com/watch?v=kqtD5dpn9C8&t=2846s&ab_channel=ProgrammingwithMosh')
+    await message.channel.send('I learned python from instert link here')
 
 
 
   if  message.content.startswith('!FavPlaylist'):
     await message.channel.send('My favorite playlist is The ultimate anime bash by Jake-Live')
-  
-  if message.content.startswith('!Play tuab'):
-    await message.channel.send("Playing TheUltimateAnimePlaylist by Jake-Live")
-  
-  print('Something was typed')
 
   return
 
